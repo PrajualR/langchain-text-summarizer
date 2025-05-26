@@ -11,7 +11,8 @@ A powerful text summarization tool built with LangChain and Streamlit that trans
 - **Download Summaries**: Save your summaries as text files
 - **User-friendly Interface**: Clean, intuitive Streamlit web interface
 
-## 🚀 Quick Start
+## 🌐 Live Demo
+Try it now: https://thetextssummarizer.streamlit.app/ 
 
 ### Prerequisites
 
@@ -44,19 +45,6 @@ A powerful text summarization tool built with LangChain and Streamlit that trans
    ```bash
    streamlit run app.py
    ```
-
-5. **Open your browser** and navigate to `http://localhost:8501`
-
-## 📁 Project Structure
-
-```
-langchain-text-summarizer/
-├── app.py              # Main Streamlit application
-├── summarizer.py       # Text summarization logic
-├── requirements.txt    # Python dependencies
-├── .env               # Environment variables (create this)
-└── README.md          # Project documentation
-```
 
 ## 🔧 Configuration
 
