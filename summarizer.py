@@ -48,7 +48,7 @@ class TextSummarizer:
                 Bullet-point Summary:
                 """
             formatted_prompt = custom_prompt.format(text=text)
-            summary = self.llm([HumanMessage(content=formatted_prompt)]).content
+            summary = self.llm.invoke([HumanMessage(content=formatted_prompt)]).content
 
             return summary.strip()
         except Exception as e:
