@@ -1,7 +1,8 @@
-streamlit
-python-dotenv
+streamlit~=1.45.1
+python-dotenv~=1.1.0
 openai
-langchain
-langchain-core
+langchain~=0.3.25
+langchain-core~=0.3.61
 langchain-community
-langchain-openai
+langchain-openai~=0.3.18
+langchain-text-splitters~=0.3.8
