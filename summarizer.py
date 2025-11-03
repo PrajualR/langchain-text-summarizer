@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.summarize import load_summarize_chain
 from langchain.docstore.document import Document
